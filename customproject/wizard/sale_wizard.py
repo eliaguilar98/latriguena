@@ -2,7 +2,7 @@
 
 from odoo import models, fields, api
 
-class SaleWizard(model.TransientModel):
+class SaleWizard(models.TransientModel):
     _name = 'report.sale.wizard'
     _description = 'Wizard: Quick Sale Orders for SalePersons'
     
