@@ -3,7 +3,7 @@
 from odoo import models, fields, api
 
 class SaleWizard(models.TransientModel):
-    _inherit ='sale.report'
+    _name ='customproject.salereport.wizard'
     _description = 'Wizard: Quick Sale Orders for SalePersons'
     
     user_id = fields.Many2one(comodel_name='sale.report',
